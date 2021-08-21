@@ -56,7 +56,7 @@
             }
             .bottom-wrapper .left-side-wrapper {
                 background: #292933;
-                padding: 20px;
+                padding: 20px 20px 0;
             }
             .bottom-wrapper .right-side-wrapper {
                 background: #22222c;
@@ -69,7 +69,8 @@
             img {
                 width: 100%;
                 position: absolute;
-                bottom: -90px;
+                bottom: 0px;
+                overflow: hidden;
             }
             h5 {
                 color: #fff;
@@ -92,10 +93,77 @@
                 color: #fff;
                 font-size: 12px;
             }
+            .top-wrapper .right-side-wrapper {
+                padding: 60px 30px;
+            }
+            .software-skills-block li {
+                color: #fff;
+                display: block;
+                margin-bottom: 5px;
+                margin-left: 15px;
+                position: relative;
+            }
+            .software-skills-block ul {
+                padding: 0;
+                margin: 0;
+                display: block;
+            }
+            .software-skills-block li:after {
+                background: #FFCA00;
+                width: 5px;
+                height: 5px;
+                content: "";
+                position: absolute;
+                left: -15px;
+                top: 10px;
+                border-radius: 50%;
+            }
+            .contact-block:before {
+                background: #FFCA00;
+                content: "";
+                width: 40px;
+                height: calc(100% + 50px);
+                top: -10px;
+                position: absolute;
+                left: 0;
+            }
+            .contact-block {
+                color: #fff;
+                padding-left: 60px;
+                position: relative;
+            }
+            .contact-title {
+                display: block;
+                margin-top: 10px;
+            }
+            .contact-value {
+                
+                display: block;
+            }
+            .social-connect-wrapper {
+    margin-top: 90px;
+}
+.contact-block:last-child {
+    margin-bottom: 40px;
+}
+.address-year p {
+    margin-top: 15px;
+}
+.location {
+    margin-left: 10px;
+}
+.experience-title {
+    margin: 0;
+}
+.experience-block {
+    color: #fff;
+    margin-top: 50px;
+}
         </style>
     </head>
     <body>
-        <section id="main-wrapper">
+        <section id="main-wrapper" >
+            <div class="">
             <div class="top-wrapper">
                 <div class="left-side-wrapper">
                     <img src="profile.png">
@@ -127,12 +195,65 @@
                             <span>2015-2018</span>
                         </div>
                     </div>
+                    <div class="software-skills-block">
+                        <h4 class="white-underline-title">Software Skills</h4>
+                        <ul>
+                            <li>Photoshop</li>
+                            <li>Premier Pro</li>
+                            <li>Illustrator</li>
+                            <li>MS Office</li>
+                        </ul>
+                    </div>
+                    <div class="social-connect-wrapper">
+                        <div class="icons-side">
+                            <div class="contact-block">
+                                <span class="contact-title">Phone</span>
+                                <span class="contact-value">+91 9292992929</span>
+                            </div>
+                            <div class="contact-block">
+                                <span class="contact-title">Email</span>
+                                <span class="contact-value">chirumushini@gmail.com</span>
+                            </div>
+                            <div class="contact-block">
+                                <span class="contact-title">Address</span>
+                                <span class="contact-value">Dommeti vari palem, Ambajipeta, Andharapradesh</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="right-side-wrapper">
                     <div class="education-block">
                         <h4 class="white-underline-title">WORK EXPERIENCE</h4>
+                        <div class="experience-block">
+                            <h6 class="experience-title">GRAPHICS DESIGNER</h6>
+                            <div class="address-year">
+                                <span class="yellow-chip">Graphics Designer</span>
+                                <span class="location">Spartics / Tanuku, West Godhavari</span>
+                                <p>ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj</p>
+                            </div>
+                        </div>
+                        <div class="experience-block">
+                            <h6 class="experience-title">GRAPHICS DESIGNER</h6>
+                            <div class="address-year">
+                                <span class="yellow-chip">Graphics Designer</span>
+                                <span class="location">Spartics / Tanuku, West Godhavari</span>
+                                <p>ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj</p>
+                            </div>
+                        </div>
+                        <div class="experience-block">
+                            <h6 class="experience-title">GRAPHICS DESIGNER</h6>
+                            <div class="address-year">
+                                <span class="yellow-chip">Graphics Designer</span>
+                                <span class="location">Spartics / Tanuku, West Godhavari</span>
+                                <p>ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj ksajdfka sdfjksjdfk sjdkfjaskldfja skdjfaksdjflkasjdflkasjdfkljdfk kljsdkfljsad klfjsadkl fjlkjsdklfj</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intrest-block-wrapper">
+                        <h4 class="white-underline-title">INTERESTS</h4>
                     </div>
                 </div>
+            </div>
             </div>
         </section>
     <body>
